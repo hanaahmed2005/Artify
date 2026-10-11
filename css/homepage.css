@@ -1,0 +1,212 @@
+.navbar {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  background: #1F3C88; 
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.logo {
+  width: 70px;   
+  height: auto;   
+}
+
+.navbar ul {
+  display: flex; 
+  gap: 20px; 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-button {
+  text-decoration: none; 
+  color: #fff; 
+  font-weight: 600; 
+  padding: 6px 10px; 
+  border-radius: 6px; 
+}
+
+.navbar .nav-button:hover {
+  background-color: #5DADE2; 
+  color: #fff;
+}
+
+body {
+  margin: 0;  
+  font-family: Arial, sans-serif;
+}
+
+.welcome {
+  background-image: url('../image/aboutus.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.welcome-content {
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.welcome-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  margin: 20px 0;
+}
+
+.welcome-content p {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.welcome-buttons {
+  margin-top: 30px;
+}
+
+.btn-main,
+.btn-outline {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 6px;
+}
+
+.btn-main {
+  background-color: #D89A02;
+  color: #fff;
+  margin-right: 15px;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.products {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.products-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.products-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.products-card {
+  width: 300px;
+}
+
+.products-card img {
+  width: 100%;
+  border-radius: 6px;
+  height: auto;
+}
+
+.products-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.products-card p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #666;
+  margin-top: 10px;
+}
+
+.aboutus-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 20px;
+  gap: 50px;
+}
+
+.aboutus-content {
+  flex: 1;
+}
+
+.aboutus-content h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.aboutus-content p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.aboutus-image {
+  flex: 1;
+}
+
+.aboutus-image img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #1F3C88;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  width: 38px;
+  height: 38px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons img {
+  width: 18px;
+  height: 18px;
+}
